@@ -1,0 +1,186 @@
+/*
+
+    R E S P O N S I V E - D E S I G N 
+    Following code is for the Desktp, Laptop, Tv's...
+
+*/
+
+body {
+    background: url('../img/partnership.svg') no-repeat;
+    background-size: 930px;
+    background-position-x: right;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    height: 70px;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.login {
+    margin-left: 155px;
+}
+
+.subtext {
+    margin-left: 160px;
+    margin-bottom: 50px;
+}
+
+.id {
+    color: red;
+}
+
+input[type=text], input[type=password], input[type=email] {
+    width: 35%;
+    padding: 24px 30px;
+    display: block;
+    color: #405bd4;
+    border-radius: 5px;
+    background: #e6e6e6;
+    box-sizing: border-box;
+    border: none;
+}
+
+input[type=text], input[type=password], input[type=email] {
+    margin-bottom: 25px;
+    border: none;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #405bd4;
+}
+
+.remember {
+    margin-right: 320px;
+}
+
+.checks {
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    background-color: #405bd4;
+    border: none;
+    margin: 30px;
+    color: #fff;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;
+    width: 35%;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position:fixed;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+}
+
+/*
+
+    R E S P O N S I V E - D E S I G N 
+    Following code is for the Mobile, Tablet's...
+
+*/
+
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        background: url('../img/phone_bg.svg') no-repeat;
+        background-size: 420px;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0 auto;
+    }
+    
+    .logo {
+        height: 40px;
+        margin-top: 50px;
+        margin-left: 5px;
+    }
+
+    p {
+        text-align: center;
+        margin-left: -5px !important;
+    }
+
+    header {
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    .login {
+        margin: 0 auto;
+    }
+
+    .id {
+        color: red;
+    }
+
+    input[type=text], input[type=password], input[type=email] {
+        width: 100%;
+        padding: 24px 30px;
+        display: block;
+        color: #405bd4;
+        border-radius: 5px;
+        background: #e6e6e6;
+        box-sizing: border-box;
+        border: none;
+    }
+    
+    input[type=text], input[type=password], input[type=email] {
+        margin-bottom: 25px;
+        border: none;
+        
+    }
+
+    a {
+        text-decoration: none;
+        color: #405bd4;
+    }
+
+    .remember {
+        margin-right: 90px;
+    }
+
+    .checks {
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+
+    .btn {
+        background-color: #405bd4;
+        border: none;
+        margin: 30px;
+        color: #fff;
+        padding: 20px 40px;
+        text-transform: uppercase;
+        font-weight: 900;
+        text-align: center;
+        text-decoration: none;
+        width: 100%;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    footer {
+        display: none;
+    }
+}
